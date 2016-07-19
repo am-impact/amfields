@@ -1,0 +1,10 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.selectField({
+    label: "Filter field"|t,
+    instructions: "Which field is going to filter the entries based on the specific source?"|t,
+    id: 'filterField',
+    name: 'filterField',
+    options: fields,
+    value: filterField
+})}}
