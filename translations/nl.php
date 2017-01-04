@@ -1,5 +1,6 @@
 <?php
 return array(
+    'Do you want to view entries with a specific status?' => 'Wilt u entries weergeven met een specifieke status?',
     'Entries with locale filter' => 'Inhoud met taalzone filter',
     'Entry relation filter by a field' => 'Entry relatie filter d.m.v. een veld',
     'Filter field' => 'Filter veld',

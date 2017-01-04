@@ -1,0 +1,10 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.selectField({
+    label: "Status"|t,
+    instructions: "Do you want to view entries with a specific status?"|t,
+    id: 'status',
+    name: 'status',
+    options: statuses,
+    value: status
+})}}
